@@ -1,0 +1,10 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /weather-analysis
+
+spring:
+  application:
+    name: weather-analysis-service
+  quartz:
+    job-store-type: memory
